@@ -1,0 +1,139 @@
+body {
+    margin: 0px;
+}
+
+
+/* 左邊屏幕 */
+
+#div1 {
+    background-color: rgb(43, 43, 43);
+    height: 100%;
+    position: fixed;
+    width: 33%;
+    margin-left: 0%;
+    background-size: 100%;
+}
+
+
+/* 右邊屏幕 */
+ 
+#div3 {
+    background-color: rgb(43, 43, 43);
+    height: 100%;
+    position: fixed;
+    width: 33%;
+    margin-left: 67%;
+    background-size: 100%;
+}
+
+
+/* 中間本體區 */
+
+#div2 {
+    background-color: black;
+    height: 100%;
+    position: fixed;
+    width: 34%;
+    margin-left: 33%;
+    background-size: 100%;
+}
+
+
+/* 計算機主體區 */
+
+section {
+    position: relative;
+    margin-left: 16%;
+    margin-top: 20%;
+    /* width: 100%; */
+    /* height: 100%; */
+}
+
+
+/* 表格外框 */
+
+table {
+    width: 360px;
+    height: 500px;
+}
+
+
+/* 按鈕格 */
+
+td {
+    border: 5px solid black;
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 70px;
+    height: 80px;
+    margin: 10%;
+    text-align: center;
+}
+
+
+/* 數字輸出框 */
+
+#td_A1 {
+    text-align: right;
+    vertical-align: bottom;
+    padding: 0 23px 0 0;
+    height: 140px;
+    border-radius: 0px;
+    color: white;
+    font-size: 400%;
+    font-weight: 100;
+    /* border-right: 15px solid black; */
+}
+
+
+/* 0號鍵 */
+
+#td_A6 {
+    border-radius: 50px;
+}
+
+#num0 {
+    text-align: left;
+    border-radius: 50px;
+    padding-left: 30px
+}
+
+
+/* 按鈕 */
+
+button {
+    font-size: 200%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-style: none;
+    border-radius: 50%;
+}
+
+.number {
+    background-color: grey;
+    color: white;
+}
+
+.number:active {
+    background-color: lightgray;
+}
+
+.special {
+    background-color: lightgray;
+}
+
+.special:active {
+    background-color: whitesmoke
+}
+
+.operator {
+    background-color: rgb(231, 153, 8);
+    color: white;
+    font-size: 300%;
+}
+
+.operator:active {
+    background-color: rgb(233, 175, 69);
+}
